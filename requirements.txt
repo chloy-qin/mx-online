@@ -10,4 +10,3 @@ XlsxWriter~=1.2.8
 future~=0.18.2
 httplib2~=0.17.3
 six~=1.14.0
-DjangoUeditor~=1.8.143
