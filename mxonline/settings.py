@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'MxOnline.urls'
+ROOT_URLCONF = 'mx-online.urls'
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mxonline.wsgi.application'
+WSGI_APPLICATION = 'mx-online.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'mxonline.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mxOnline',
+        'NAME': 'mxonline',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': '127.0.0.1',
